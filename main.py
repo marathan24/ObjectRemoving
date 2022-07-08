@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
 import torchvision.transforms as transforms
-import matplotlib.pyplot as plt
+
 import numpy as np
 from torch.utils.data import DataLoader
 from torchvision import models
@@ -59,9 +59,7 @@ T = transforms.ToPILImage()
 seg = T2(rgb)
 ori_img = cv2.imread("file1")
 seg_img = cv2.imread("rgb")
-#plt.figure(figsize=[12,12])
-#plt.subplot(121);plt.imshow(ori_img,cmap='gray')
-#plt.subplot(122);plt.imshow(rgb,cmap='gray')
+
 desired_width = 224
 desired_height = 224
 dim = (desired_width, desired_height)
