@@ -1,7 +1,7 @@
 
 This is our project of object removal given to us by Aries section, IIT Roorkee.
 
-Contributor- Varunnesh Johar, Rishika Rishika.
+Contributor- Varunnesh Johar (https://github.com/varuneesh), Rishika Rishika.
 
 
 Our Presentation
